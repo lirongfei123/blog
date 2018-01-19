@@ -190,7 +190,7 @@ schtasks /create /sc hourly /st 00:05:00 /tn "My App" /tr c:\apps\myapp.exe
 
 计划命令每五小时运行一次
 下面的命令计划 MyApp 程序从 2001 年 3 月的第一天起每五小时运行一次。它使用 /mo 参数来指定间隔时间，使用 /sd 参数来指定起始日期。由于命令没有指定起始时间，当前时间被用作起始时间。
-
+D:\blog\technology\linux\scripts\git.sh
 schtasks /create /sc hourly /mo 5 /sd 03/01/2001 /tn "My App" /tr c:\apps\myapp.exe
 
 schtasks create daily
