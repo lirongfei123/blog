@@ -4,3 +4,5 @@ var x = d3.scale.linear()
 console.log(x.ticks(100));
 
 默认比例尺相当于数字恒等函数
+
+比例尺有两个关键参数，一个是总长度，一个是分几格
