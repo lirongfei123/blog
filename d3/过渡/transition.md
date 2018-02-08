@@ -1,0 +1,4 @@
+transition
+delay
+duration
+ease
