@@ -1,7 +1,11 @@
 ### d3.scale.linear()
 var x = d3.scale.linear()
-    .range([0, width - 3 * margin]);
-console.log(x.ticks(100));
+
+.range([0, width - 3 * margin]);
+
+x.ticks(100)
+
+.domain 定义作用域 作用域的最低值就是值的最小值
 
 默认比例尺相当于数字恒等函数
 
