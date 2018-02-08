@@ -1,4 +1,4 @@
-schtasks /create /tn "git_commit" /sc minute /mo 1 /tr "cmd sh D:\blog\technology\linux\scripts\git.sh"
+schtasks /create /tn "git_commit" /sc minute /mo 1 /tr "cmd /c sh /d/blog/technology/linux/scripts/git.sh"
 
 Windows 自带的命令非常非常之多，其中计划任务我们之前没有在Win7之家和Vista之家谈及过，今天顺便整理一下，发给大家。
 
