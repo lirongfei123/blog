@@ -1,5 +1,5 @@
 #!/bin/bash
-CheckList=("/D/blog/technology" "/D/blog/life")
+CheckList=("/D/blog/technology" "/D/blog/life" "/d/gitcode/framework-study/d3")
 for data in ${CheckList[@]}  
 do  
     echo ${data}
